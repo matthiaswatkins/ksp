@@ -75,18 +75,18 @@
 
   CelestialBody.Eeloo = Eeloo = new CelestialBody(1.1149358e21, 210000, 19460, new Orbit(Kerbol, 90118820000, 0.26, 6.15, 50.0, 260.0, 3.14));
   
-  CelestialBody.Ascension = Ascension = new CelestialBody(1.90144081510339E+19, 14000, 4040, new Orbit(Kerbol, 24310491562.2864, 0.97, 19, 0, 0, 6.1005784094));
+  CelestialBody.Ascension = Ascension = new CelestialBody(1.90144081510339E+19, 14000, 4040, new Orbit(Kerbol, 24310491562.2864, 0.97, 19, 0, 0, 1.827643209));
   
-  CelestialBody.Inaccessable = Inaccessible = new CelestialBody(3.96868444710818E+18, 15000, 440, new Orbit(Kerbol, 124993749843.742, 0.01, 2, 0, 0, 6.04231071528));
+  CelestialBody.Inaccessable = Inaccessible = new CelestialBody(3.96868444710818E+18, 15000, 440, new Orbit(Kerbol, 125000000000, 0.01, 2, 0, 0, 6.04892620778));
   
   CelestialBody.Sentar = Sentar = new CelestialBody(5.09314680671058E+23, 6000000, 36000, new Orbit(Kerbol, 160000000000, 0, 26, 0, 0, 0));
   
-  CelestialBody.Skelton = Skelton = new CelestialBody(4.51548115036107E+21, 320000, 65517.859375, new Orbit(Sentar, 120000000, 0, 15, 0, 0, 0));
+  CelestialBody.Skelton = Skelton = new CelestialBody(4.51548115036107E+21, 320000, 65517.859375, new Orbit(Sentar, 50000000, 0, -200, 0, 0, 0));
   
   CelestialBody.Erin = Erin = new CelestialBody(2.9397663009231E+22, 500000, 21600, new Orbit(Sentar, 80000000, 0, 15, 0, 0, 0));
   
-  CelestialBody.Ringle = Ringle = new CelestialBody(4.23326347332927E+22, 600000, 491383.972112887, new Orbit(Sentar, 50000000, 0, -200, 0, 0, 0));
+  CelestialBody.Ringle = Ringle = new CelestialBody(4.23326347332927E+22, 600000, 491383.972112887, new Orbit(Sentar, 120000000, 0, 15, 0, 0, 0));
   
-  CelestialBody.Thud = Thud = new CelestialBody(1.66155588852263E+23, 600000, 1751403.30360751, new Orbit(Sentar, 271108834.234519, 0.25, 20, 0, 0, 0));
+  CelestialBody.Thud = Thud = new CelestialBody(1.66155588852263E+23, 600000, 1751403.30360751, new Orbit(Sentar, 280000000, 0.25, 20, 0, 0, 0));
 
 }).call(this);
