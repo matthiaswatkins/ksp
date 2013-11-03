@@ -15,6 +15,7 @@ HALF_PI = 0.5 * Math.PI
     if result < 0 then result + TWO_PI else result
 
 CelestialBody.Kerbol = Kerbol = new CelestialBody(1.756567e+28, 2.616e+08, 432000, null)
+CelestialBody.Ablate = Ablate = new CelestialBody(8.94276895415044E+18, 13000, 159300.265559099, new Orbit(Kerbol, 910000000, 0, 5, 0, 0, 5.09991320798))
 CelestialBody.Moho = Moho = new CelestialBody(3.6747079e21, 250000, 1210000, new Orbit(Kerbol, 5263138304, 0.2, 7.0, 70.0, 15.0, 3.14))
 CelestialBody.Eve = Eve = new CelestialBody(1.2244127e23, 700000, 80500, new Orbit(Kerbol, 9832684544, 0.01, 2.1, 15.0, 0, 3.14))
 CelestialBody.Gilly = Gilly = new CelestialBody(1.2420512e17, 13000, 28255, new Orbit(Eve, 31500000, 0.55, 12.0, 80.0, 10.0, 0.9))
@@ -31,3 +32,10 @@ CelestialBody.Tylo = Tylo = new CelestialBody(4.2332635e22, 600000, 211926.36, n
 CelestialBody.Bop = Bop = new CelestialBody(3.7261536e19, 65000, 544507.4, new Orbit(Jool, 128500000, 0.235, 15.0, 10.0, 25.0, 0.9))
 CelestialBody.Pol = Pol = new CelestialBody(1.0813636e19, 44000, 901902.62, new Orbit(Jool, 179890000, 0.17085, 4.25, 2.0, 15.0, 0.9))
 CelestialBody.Eeloo = Eeloo = new CelestialBody(1.1149358e21, 210000, 19460,new Orbit(Kerbol, 90118820000, 0.26, 6.15, 50.0, 260.0, 3.14))
+CelestialBody.Ascension = Ascension = new CelestialBody(1.90144081510339E+19, 14000, 4040, new Orbit(Kerbol, 100000000000, 0.97, 19, 0, 0, 1.827643209))
+CelestialBody.Inaccessable = Inaccessible = new CelestialBody(3.96868444710818E+18, 15000, 440, new Orbit(Kerbol, 125000000000, 0.01, 2, 0, 0, 6.04892620778))
+CelestialBody.Sentar = Sentar = new CelestialBody(5.09314680671058E+23, 6000000, 36000, new Orbit(Kerbol, 160000000000, 0, 26, 0, 0, 0))
+CelestialBody.Skelton = Skelton = new CelestialBody(4.51548115036107E+21, 320000, 65517.859375, new Orbit(Sentar, 50000000, 0, -200, 0, 0, 0))
+CelestialBody.Erin = Erin = new CelestialBody(2.9397663009231E+22, 500000, 21600, new Orbit(Sentar, 80000000, 0, 15, 0, 0, 0))
+CelestialBody.Ringle = Ringle = new CelestialBody(4.23326347332927E+22, 600000, 491383.972112887, new Orbit(Sentar, 120000000, 0, 15, 0, 0, 0))
+CelestialBody.Thud = Thud = new CelestialBody(1.66155588852263E+23, 600000, 1751403.30360751, new Orbit(Sentar, 280000000, 0.25, 20, 0, 0, 0))
