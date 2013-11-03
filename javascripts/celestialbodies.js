@@ -75,7 +75,7 @@
 
   CelestialBody.Eeloo = Eeloo = new CelestialBody(1.1149358e21, 210000, 19460, new Orbit(Kerbol, 90118820000, 0.26, 6.15, 50.0, 260.0, 3.14));
   
-  CelestialBody.Ascension = Ascension = new CelestialBody(1.90144081510339E+19, 14000, 4040, new Orbit(Kerbol, 24310491562.2864, 0.97, 19, 0, 0, 1.827643209));
+  CelestialBody.Ascension = Ascension = new CelestialBody(1.90144081510339E+19, 14000, 4040, new Orbit(Kerbol, 100000000000, 0.97, 19, 0, 0, 1.827643209));
   
   CelestialBody.Inaccessable = Inaccessible = new CelestialBody(3.96868444710818E+18, 15000, 440, new Orbit(Kerbol, 125000000000, 0.01, 2, 0, 0, 6.04892620778));
   
