@@ -81,7 +81,7 @@
   
   CelestialBody.Sentar = Sentar = new CelestialBody(5.09314680671058E+23, 6000000, 36000, new Orbit(Kerbol, 160000000000, 0, 26, 0, 0, 0));
   
-  CelestialBody.Skelton = Skelton = new CelestialBody(4.51548115036107E+21, 320000, 65517.859375, new Orbit(Sentar, 50000000, 0, -200, 0, 0, 0));
+  CelestialBody.Skelton = Skelton = new CelestialBody(4.51548115036107E+21, 320000, 65517.859375, new Orbit(Sentar, 50000000, 0, 160, 0, 0, 0));
   
   CelestialBody.Erin = Erin = new CelestialBody(2.9397663009231E+22, 500000, 21600, new Orbit(Sentar, 80000000, 0, 15, 0, 0, 0));
   
